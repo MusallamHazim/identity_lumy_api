@@ -1,0 +1,15 @@
+ 
+If your Python version didn't work first install python version 3.12 then inside the terminal:
+ 
+Step 1: py -3.12 -m venv venv
+
+Step 2: .\venv\Scripts\activate
+
+Check your version using: python --version
+
+
+Install the requirements: pip install -r requirements.txt
+
+Run the server: uvicorn main:app --reload --port 8000
+
+when you take the http from the output the terminal gives when you add it in the search add at the end /docs
